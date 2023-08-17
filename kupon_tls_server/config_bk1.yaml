@@ -1,0 +1,7 @@
+runtime: kupon_tls_server
+nexusws:
+  host: "http://localhost"
+  port: 9085
+tls_server:
+  listen_port: 3002
+  listen_ip: ""

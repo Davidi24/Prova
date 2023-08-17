@@ -1,0 +1,11 @@
+level=info service=NexusTlsServer time:=2023-07-27T12:55:24.274836396Z caller=main.go:45 msg="kupon service started"
+level=error service=NexusTlsServer time:=2023-07-27T12:56:43.7473753Z caller=main.go:129 exit=terminated
+level=info service=NexusTlsServer time:=2023-07-27T12:56:43.747492038Z caller=main.go:130 msg="kupon service stopped"
+level=info service=NexusTlsServer time:=2023-07-27T12:57:12.395784774Z caller=main.go:45 msg="kupon service started"
+level=error service=NexusTlsServer time:=2023-07-27T12:58:09.50871523Z caller=main.go:116 err="accept tcp [::]:3002: use of closed network connection"
+level=error service=NexusTlsServer time:=2023-07-27T12:58:09.508849245Z caller=main.go:116 err="accept tcp [::]:3002: use of closed network connection"
+level=error service=NexusTlsServer time:=2023-07-27T12:58:09.508904401Z caller=main.go:116 err="accept tcp [::]:3002: use of closed network connection"
+level=error service=NexusTlsServer time:=2023-07-27T12:58:09.508953611Z caller=main.go:116 err="accept tcp [::]:3002: use of closed network connection"
+level=error service=NexusTlsServer time:=2023-07-27T12:58:09.508715151Z caller=main.go:129 exit=terminated
+level=info service=NexusTlsServer time:=2023-07-27T12:58:09.509163269Z caller=main.go:130 msg="kupon service stopped"
+level=info service=NexusTlsServer time:=2023-07-27T12:58:25.998060156Z caller=main.go:45 msg="kupon service started"

@@ -1,0 +1,19 @@
+[Unit]
+Description=Kupon TLS Server
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=3
+WorkingDirectory=~/kupon_tls_server
+ExecStart= ~/kupon_tls_server/kupon_tls_server
+#sEnvironment=
+#StandardOutput=syslog
+#StandardError=syslog
+#SyslogIdentifier=autodeploy
+After=nexuswebservice.service
+
+[Install]
+WantedBy=multi-user.target
